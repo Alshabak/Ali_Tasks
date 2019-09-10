@@ -1,0 +1,198 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar-section{
+
+    color: lightcoral;
+    padding: 1rem;
+    border-bottom: 2px solid darkblue;
+}
+
+
+.nav-bar-section .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar-section  .nav-bar .logo img{
+    width: 20rem;
+}
+.nav-bar-section .menu ul{
+    list-style: none;
+
+}
+.nav-bar-section .menu ul li{
+    display: inline;
+    margin: 2rem 3rem;
+    text-transform: capitalize;
+    font-family: "khalaad Sara";
+
+}
+/*end of section one*/
+
+
+/*start of section two*/
+
+.describtion-section{
+    padding-top: 3rem;
+    background: #AFABEF;
+    padding-bottom: 1rem;
+    text-align: center;
+
+}
+
+.describtion-section .header-kasit
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+    margin-bottom: 1rem;
+    color: darkblue;
+}
+
+.describtion-section .overview-kasit{
+    text-align: center;
+    padding: 1rem 6rem 2rem 6rem;
+    color:black;
+    word-spacing: 0.40rem;
+
+
+
+}
+.describtion-section .login-student-button{
+    background-color:#1D1959;
+    align-content: center;
+    padding: 2rem;
+    font-size: 0.78em;
+    border-radius:5rem;
+    color: white;
+    text-transform: uppercase;
+font-weight: bolder;
+    margin-bottom: 4rem;
+    text-align: center;
+    border-style: outset;
+
+}
+/*end of section 2*/
+
+/*START OF Third section*/
+
+.news-section{
+    background-color: lightskyblue;
+    padding-top: 3rem;
+padding-bottom: 2.25rem;
+    text-align: center;
+}
+
+
+.news-section .news-card{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.news-section .news-card .article-one-card .head-article{
+    font-weight: bolder;
+    font-size: 0.98em;
+font-family: sans-serif;
+    padding-top: 1rem;
+
+
+}
+
+.news-section .news-card .article-one-card img{
+    width: 250px;
+    border-radius:5rem;
+    border: 1px  black;
+    border-style: outset;
+}
+.news-section .news-card .article-one-card .details-article{
+    color: darkslateblue;
+    font-family: "Jameel Khushkhat-L";
+    text-transform: capitalize;
+}
+/*THE END  OF Third section*/
+
+
+
+
+
+/*FOOTER*/
+.footer-section{
+    padding-bottom: 0.15rem;
+    padding-top: 2rem;
+    background-color: lightslategrey;
+}
+
+.footer-section .social-account img{
+    width: 2rem;
+    display: inline;
+}
+
+
+.footer-section .reseved{
+    text-align: center;
+    font-size: medium;
+    color: white;
+font-family: sans-serif;
+
+}
+
+
+
+
+/***********************************************End INDEX PAGE*******************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*start of extra */
+
+.container{
+    margin: auto;
+    max-width: 1100px;
+
+}
+.active{
+
+    background: cornflowerblue;
+    padding: 0.75rem;
+    border-radius: 0.3rem;
+    font-family: sans-serif;
+}
+.a-no-style{
+    text-decoration: none;
+color: darkslategray;
+
+}
+/*END OF EXTRAS*/
+
